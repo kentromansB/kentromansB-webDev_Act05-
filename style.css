@@ -1,6 +1,3 @@
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
 .banner{
 	margin-top: 50px;
 	width: 100%;
@@ -22,7 +19,8 @@ body {
 	width:420px;
 	background-color:#ffffff;
 	margin-top:-27px;
-	 -webkit-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8);
+	 -webkit-box-shadow: 12px 0px 15px -4px rgba(31, 73, 125, 0.8);
+	 
 }
 .face{
 	margin-top: 20px;
@@ -32,11 +30,9 @@ body {
 	border-radius: 35px;
 }.home{
 	margin-left: 50px;
-	color: #e45a79;
 }
 .name{
 	margin-left: 30px;
-	font-family: Arial, Helvetica, sans-serif;
 }
 .portal{
 	margin-left: 20px;
@@ -60,39 +56,33 @@ input[type="text"]{
 	height: 25px;
 	border-radius: 8px;
 }
-.pbjam {
-	color: black;
-	position: absolute;
-	left: 520px;
-	top: 200px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-hr.new1 {
-	border-top: 1px solid black;
-	left: 500px;
-	width: 580px;
-	top: 260px;
-	position: absolute;
-  }
-  textarea {
-    width: 720px;
-    height: 220px;
-    background-color: white;
-	border: 1px solid #e45a79;
-	border-radius: 30px;
-	left: 500px;
-	top: 300px;
-	font-size: 20px;
-	position: absolute;
-}
-button{
-	color: white;
+input[type="submit"]{
+	
+	widows: 100px;
+	height: 50px;
+	border-radius: 8px;
 	background-color: #e45a79;
-	border: 1px solid #e45a79;
-	border-radius: 10px;
-	position: absolute;
-	left: 1100px;
-	top: 480px;
-	font-size: 15px;
-	width: 80px;
+}
+.body-content{
+	font-size: 40px;
+	margin-top: -700px;
+	margin-left: 440px;
+	
+}
+.blog{
+	margin-left: 440px;
+	height: 400px;
+	width:1300px;
+	border-radius: 25px;
+	border-style: none;
+	background-color: white;
+	-webkit-box-shadow: 12px 0 15px -4px #e45;
+}
+.blog-box{
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 300px;
+	width:1200px;
+	border-style:none;
+	font-size: 25px;
 }
